@@ -4,7 +4,7 @@
    <name>reqres Test Suites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T16:32:13</lastRun>
+   <lastRun>2018-11-22T19:51:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -40,5 +40,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/reqres Test Cases/LIST RESOURCE</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>613f904b-42ea-4fac-8ce7-c33aa3cf7884</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/reqres Test Cases/CREATE</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
