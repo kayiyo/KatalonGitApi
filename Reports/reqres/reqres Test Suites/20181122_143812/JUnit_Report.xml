@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="reqres Test Suites" time="3" tests="2" failures="0" errors="0">
+   <testsuite name="reqres Test Suites" tests="2" failures="0" errors="0" time="3" timestamp="2018-11-22 14:38:14" hostname="kayiyo - localhost" id="Test Suites/reqres/reqres Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kayiyo/git/KatalonGitApi/Reports/reqres/reqres Test Suites/20181122_143812"/>
+         <property name="logFiles" value="/Users/kayiyo/git/KatalonGitApi/Reports/reqres/reqres Test Suites/20181122_143812/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kayiyo - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+      </properties>
+      <testcase name="Test Cases/reqres Test Cases/SINGLE USER" classname="Test Cases/reqres Test Cases/SINGLE USER" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:38:14 - [TEST_CASE][PASSED] - Test Cases/reqres Test Cases/SINGLE USER: Test Cases/reqres Test Cases/SINGLE USER
+
+2018-11-22 14:38:15 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(reqres/SINGLE USER)): Send request successfully
+
+2018-11-22 14:38:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-22 14:38:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-22 14:38:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/reqres Test Cases/LIST USERS" classname="Test Cases/reqres Test Cases/LIST USERS" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:38:16 - [TEST_CASE][PASSED] - Test Cases/reqres Test Cases/LIST USERS: Test Cases/reqres Test Cases/LIST USERS
+
+2018-11-22 14:38:16 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(reqres/LIST USERS, [url:internal.GlobalVariable.url])): Send request successfully
+
+2018-11-22 14:38:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-22 14:38:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-22 14:38:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-22 14:38:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-22 14:38:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-22 14:38:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-22 14:38:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 14:38:14 - [TEST_SUITE][PASSED] - reqres Test Suites: Test Cases/reqres Test Cases/LIST USERS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

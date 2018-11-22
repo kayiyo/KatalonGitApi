@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+reqres Test Suites,,,2018-11-22 14:38:14,2018-11-22 14:38:18,3.770s,PASSED
+,,,,,,
+Test Cases/reqres Test Cases/SINGLE USER,,,2018-11-22 14:38:14,2018-11-22 14:38:16,1.553s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(reqres/SINGLE USER)),,,2018-11-22 14:38:15,2018-11-22 14:38:16,1.243s,PASSED
+verifyResponseStatusCode,,,2018-11-22 14:38:16,2018-11-22 14:38:16,0.010s,PASSED
+,,,,,,
+Test Cases/reqres Test Cases/LIST USERS,,,2018-11-22 14:38:16,2018-11-22 14:38:18,1.879s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(reqres/LIST USERS, [url:internal.GlobalVariable.url]))",,,2018-11-22 14:38:16,2018-11-22 14:38:18,1.691s,PASSED
+verifyResponseStatusCode,,,2018-11-22 14:38:18,2018-11-22 14:38:18,0.002s,PASSED
+verifyElementPropertyValue,,,2018-11-22 14:38:18,2018-11-22 14:38:18,0.049s,PASSED
+verifyElementPropertyValue,,,2018-11-22 14:38:18,2018-11-22 14:38:18,0.019s,PASSED
